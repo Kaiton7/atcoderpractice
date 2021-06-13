@@ -3,7 +3,7 @@ from itertools import combinations
  
 input = stdin.readline
 
-N,M = map(int, input().split())  # 3個の数字の入力を受け取る
+N,M = map(int, input().split())
 A = [[] for i in range(N)]
 for n in range(N):
     A[n] = list(map(int, input().split()))

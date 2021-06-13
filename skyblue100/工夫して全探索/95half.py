@@ -1,3 +1,6 @@
+# 全探索して簡単になるところを考える
+# abが決まるとa,bも決まる。
+# abの数で全探索する。
 from sys import stdin
 input = stdin.readline
 A,B,C,X,Y = map(int, input().split())  # 3個の数字の入力を受け取る

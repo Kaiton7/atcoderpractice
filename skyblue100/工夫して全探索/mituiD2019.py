@@ -1,3 +1,6 @@
+# 三桁の暗証番号は３つ以上後じゃないと生成できない
+# 各Sを走査しながら、現在のsまでに作成できるパスワードを創っていいく
+# 
 from sys import stdin
 input = stdin.readline
 N = int(input())

@@ -1,3 +1,5 @@
+# todo:約数列挙のenumsqrtを実装
+
 from sys import stdin
 input = stdin.readline
 
