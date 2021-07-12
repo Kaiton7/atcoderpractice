@@ -1,7 +1,7 @@
 # imos法の木バージョン
 # 各頂点に足すべきスコアを最初に全て計算しておく
 #  最後に根から順番に伝搬させていく
-# 計算量? O(QE)がO(Q + E)？
+# 計算量? O(QE)がO(Q + E)？３４
 def LI():
     return list(map(int, input().split()))
 def II():
